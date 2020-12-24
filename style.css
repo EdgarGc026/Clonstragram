@@ -87,6 +87,12 @@ a.website {
   margin: 0;
 }
 
+.button {
+  background: transparent;
+  border: 1px solid rgba(var(--ca6, 219, 219, 219), 1);
+  color: rgba(var(--f75, 38, 38, 38), 1);
+}
+
 /* Seccion de la descripcion */
 
 .description {
@@ -97,10 +103,11 @@ a.website {
 .description-options h1 {
   display: inline-flex;
   padding-right: 10px;
+  width: auto;
 }
 
 h1 {
-  font-size: 1.6rem;
+  font-size: 2.4rem;
 }
 
 ul .follows-menu {
@@ -116,9 +123,25 @@ ul .follows-menu {
 }
 
 h3 {
-  font-size: 1.3rem;
+  font-size: 1.4rem;
   font-weight: bold;
 }
+
+p {
+  display: inline-block;
+  font-size: 1.2rem;
+}
+
+.description-edit {
+  width: 95px;
+  height: 30px;
+}
+
+.description-more {
+  width: 25px;
+  height: 25px;
+}
+
 .description-info {
   font-size: 1.2rem;
 }
